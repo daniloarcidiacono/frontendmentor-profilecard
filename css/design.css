@@ -1,0 +1,29 @@
+html.desktop {
+  width: 1440px;
+  height: 720px;
+}
+html.desktop .design {
+  display: block;
+  width: 1440px;
+  height: 720px;
+  content: url("../design/desktop-design.jpg");
+}
+html.mobile {
+  width: 375px;
+  height: 667px;
+}
+html.mobile .design {
+  display: block;
+  width: 375px;
+  height: 667px;
+  content: url("../design/mobile-design.jpg");
+}
+
+.design {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=design.css.map */

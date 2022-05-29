@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Kumbh Sans;
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Kumbh Sans;
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Bold.ttf");
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=typography.css.map */

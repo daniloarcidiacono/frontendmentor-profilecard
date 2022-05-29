@@ -1,0 +1,18 @@
+// Kumbh Sans font
+@font-face {
+    font-family: Kumbh Sans;
+    src: url('../fonts/Kumbh_Sans/KumbhSans-Regular.ttf');
+
+    // CSS custom properties do not work on @font-face rules!
+    // See https://stackoverflow.com/questions/58752373/custom-css-properties-in-font-face
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Kumbh Sans;
+    src: url('../fonts/Kumbh_Sans/KumbhSans-Bold.ttf');
+
+    // CSS custom properties do not work on @font-face rules!
+    // See https://stackoverflow.com/questions/58752373/custom-css-properties-in-font-face
+    font-weight: bold;
+}
