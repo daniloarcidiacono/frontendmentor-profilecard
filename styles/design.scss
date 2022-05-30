@@ -5,8 +5,10 @@
 
         .design {
             display: block;
+
             width: $width;
             height: $height;
+
             content: url($url);
         }
     }
@@ -18,8 +20,10 @@ html {
 }
 
 .design {
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
+    
+    display: none;
+    z-index: 255;    
 }

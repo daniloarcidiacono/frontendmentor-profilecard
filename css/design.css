@@ -20,10 +20,11 @@ html.mobile .design {
 }
 
 .design {
-  display: none;
   position: absolute;
   top: 0;
   left: 0;
+  display: none;
+  z-index: 255;
 }
 
 /*# sourceMappingURL=design.css.map */

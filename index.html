@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="mobile">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -11,26 +11,43 @@
 <body>
   <img class="design" alt="Design" />
   <main>
-    <div class="card">
-      Victor Crest
-      26
-      London
-    
-      80K
-      Followers
-    
-      803K
-      Likes
-    
-      1.4K
-      Photos    
-    </div>
+    <article class="card">
+      <header>        
+        <img class="card__background" src="images/bg-pattern-card.svg" alt="Card Background">
+        <div class="card__avatarwrapper">
+          <img class="card__avatar" src="images/image-victor.jpg" alt="Avatar">
+        </div>        
+      </header>
+      <div class="card__content">
+        <h1 class="card__title">
+          Victor Crest
+          <span class="card__age">26</span>
+        </h1>
+        <h2 class="card__subtitle">London</h2>
+      </div>
+      <footer>
+        <ul class="card__stats">
+          <li class="card__stat">
+            <span class="card__statnumber">80K</span>
+            <span class="card__stattext">Followers</span>
+          </li>
+          <li class="card__stat">
+            <span class="card__statnumber">803K</span>
+            <span class="card__stattext">Likes</span>
+          </li>
+          <li class="card__stat">
+            <span class="card__statnumber">1.4K</span>
+            <span class="card__stattext">Photos</span>
+          </li>
+        </ul>
+      </footer>
+    </article>
   </main>
   <footer>
-    <div class="attribution">
+    <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/daniloarcidiacono" target="_blank">Danilo Arcidiacono</a>.
-    </div>
+    </p>
   </footer>
 </body>
 </html>
